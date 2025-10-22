@@ -1,0 +1,90 @@
+[
+  {
+    "picture": "9(001)", 
+    "ate": "001", 
+    "campo": "TIPO DE REGISTRO", 
+    "de": "001", 
+    "conteudo": "5", 
+    "significado": "IDENTIFICA\u00c7\u00c3O DO REGISTRO TRANSA\u00c7\u00c3O"
+  }, 
+  {
+    "picture": "X(120)", 
+    "ate": "121", 
+    "campo": "BRANCOS", 
+    "de": "002", 
+    "conteudo": "BRANCOS", 
+    "significado": "COMPLEMENTO DE REGISTRO"
+  }, 
+  {
+    "picture": "9(002)", 
+    "ate": "123", 
+    "campo": "C\u00d3DIGO DE INSCRI\u00c7\u00c3O", 
+    "de": "122", 
+    "conteudo": "NOTA 30", 
+    "significado": "IDENT. DO TIPO DE INSCRI\u00c7\u00c3O DO SACADOR/AVALISTA"
+  }, 
+  {
+    "picture": "9(014)", 
+    "ate": "137", 
+    "campo": "N\u00daMERO DE INSCRI\u00c7\u00c3O", 
+    "de": "124", 
+    "conteudo": "NOTA 30", 
+    "significado": "N\u00daMERO DE INSCRI\u00c7\u00c3O DO SACADOR AVALISTA"
+  }, 
+  {
+    "picture": "X(040)", 
+    "ate": "177", 
+    "campo": "LOGRADOURO", 
+    "de": "138", 
+    "conteudo": "NOTA 30", 
+    "significado": "RUA, N\u00ba E COMPLEMENTO DO SACADOR AVALISTA"
+  }, 
+  {
+    "picture": "X(012)", 
+    "ate": "189", 
+    "campo": "BAIRRO", 
+    "de": "178", 
+    "conteudo": "NOTA 30", 
+    "significado": "BAIRRO DO SACADOR AVALISTA"
+  }, 
+  {
+    "picture": "9(008)", 
+    "ate": "197", 
+    "campo": "CEP", 
+    "de": "190", 
+    "conteudo": "NOTA 30", 
+    "significado": "CEP DO SACADOR AVALISTA"
+  }, 
+  {
+    "picture": "X(015)", 
+    "ate": "212", 
+    "campo": "CIDADE", 
+    "de": "198", 
+    "conteudo": "NOTA 30", 
+    "significado": "CIDADE DO SACADOR AVALISTA"
+  }, 
+  {
+    "picture": "X(002)", 
+    "ate": "214", 
+    "campo": "ESTADO", 
+    "de": "213", 
+    "conteudo": "NOTA 30", 
+    "significado": "UF (ESTADO) DO SACADOR AVALISTA"
+  }, 
+  {
+    "picture": "X(180)", 
+    "ate": "394", 
+    "campo": "BRANCOS", 
+    "de": "215", 
+    "conteudo": "BRANCOS", 
+    "significado": "COMPLEMENTO DE REGISTRO"
+  }, 
+  {
+    "picture": "9(006)", 
+    "ate": "400", 
+    "campo": "N\u00daMERO SEQUENCIAL", 
+    "de": "395", 
+    "conteudo": "", 
+    "significado": "N\u00daMERO SEQUENCIAL DO REGISTRO NO ARQUIVO"
+  }
+]

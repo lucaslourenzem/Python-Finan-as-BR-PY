@@ -1,0 +1,26 @@
+[
+  {
+    "picture": "9(01)", 
+    "ate": "001", 
+    "campo": "TIPO DE REGISTRO", 
+    "de": "001", 
+    "conteudo": "9", 
+    "significado": "IDENTIFICA\u00c7\u00c3O DO REGISTRO TRAILER"
+  }, 
+  {
+    "picture": "X(393)", 
+    "ate": "394", 
+    "campo": "BRANCOS", 
+    "de": "002", 
+    "conteudo": "", 
+    "significado": "COMPLEMENTO DO REGISTRO"
+  }, 
+  {
+    "picture": "9(06)", 
+    "ate": "400", 
+    "campo": "N\u00daMERO SEQ\u00dcENCIAL", 
+    "de": "395", 
+    "conteudo": "", 
+    "significado": "N\u00daMERO SEQ\u00dcENCIAL DO REGISTRO NO ARQUIVO"
+  }
+]

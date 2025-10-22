@@ -1,0 +1,116 @@
+# Python Core
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# Type Checking
+.mypy_cache/
+.dmypy.json
+.pytype/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+
+# Logs
+*.log
+pip-log.txt
+
+# SEGURANÇA - CRÍTICO PARA APIs FINANCEIRAS
+.env
+.env.*
+.envrc
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets.json
+credentials.json
+client_secrets.json
+*creds*
+.secrets/
+
+# Certificados Brasileiros NFe
+certificates/
+*.cert
+transport.pem
+signing.pem
+brcac-*.pem
+icp-brasil-*.pem
+
+# Cloud Credentials
+.aws/
+.azure/
+.gcp/
+google-credentials.json
+
+# Arquivos CNAB
+storage/cnab/remessa/*.rem
+storage/cnab/retorno/*.ret
+
+# Arquivos NFe (XMLs podem conter dados sensíveis)
+storage/nfe/xml/*.xml
+storage/nfe/danfe/*.pdf
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
