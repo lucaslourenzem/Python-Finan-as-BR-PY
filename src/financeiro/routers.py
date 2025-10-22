@@ -9,6 +9,3 @@ router = APIRouter()
 async def ping():
     """Endpoint de teste"""
     return {"msg": "pong financeiro"}
-EOF
-
-echo "✅ Routers dos domínios criados"

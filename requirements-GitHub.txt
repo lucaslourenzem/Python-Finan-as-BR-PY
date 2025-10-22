@@ -1,3 +1,13 @@
 #ESTE ARQUIVO POSSUI GITHUB's Especializados que dever ser instalados diretamente no terminal.
 #Para implementação inicial, recomenda-se também o uso de setup.py com pip install -e no terminal para completar.
 git clone https://github.com/scardine/cnab.git
+### Intalações manuais:
+###pip install pydantic-settings
+# lxml - wheels disponíveis no PyPI
+##pip install lxml
+
+# xmlsec - pode precisar de wheel não-oficial
+##pip install --only-binary :all: xmlsec
+
+# asyncpg - normalmente funciona, mas se falhar:
+##pip install psycopg2-binary  # alternativa mais simples

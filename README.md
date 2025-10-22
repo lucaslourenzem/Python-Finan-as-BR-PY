@@ -1,4 +1,4 @@
-cat > README.md << 'EOF'
+
 # 💰 Financial API - Sistema Financeiro Brasileiro
 
 API REST para automação de processos financeiros e fiscais no Brasil.
