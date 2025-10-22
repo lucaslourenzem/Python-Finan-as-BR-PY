@@ -1,0 +1,3 @@
+#ESTE ARQUIVO POSSUI GITHUB's Especializados que dever ser instalados diretamente no terminal.
+#Para implementação inicial, recomenda-se também o uso de setup.py com pip install -e no terminal para completar.
+git clone https://github.com/scardine/cnab.git
