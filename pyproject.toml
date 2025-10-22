@@ -1,0 +1,40 @@
+[project]
+name = "financial-api"
+version = "1.0.0"
+description = "API financeira brasileira com suporte CNAB e NFe"
+requires-python = ">=3.11"
+authors = [
+    {name = "Seu Nome", email = "seu@email.com"}
+]
+readme = "README.md"
+
+[project.optional-dependencies]
+dev = [
+    "black>=23.12.1",
+    "ruff>=0.1.9",
+    "mypy>=1.8.0",
+    "pytest>=8.3.3",
+]
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I", "N"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
